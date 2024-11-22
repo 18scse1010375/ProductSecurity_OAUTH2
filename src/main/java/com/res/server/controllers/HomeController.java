@@ -12,6 +12,8 @@ public class HomeController {
     @GetMapping
     public String home(){
 
+        System.out.println("Hi") ; 
+
         return "This is Home Page" ;
 
     }
